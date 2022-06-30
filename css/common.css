@@ -657,3 +657,98 @@ footer {
     margin-top: 15px;
   }
 }
+
+@media screen and (max-width: 540px) {
+  
+  header a.logo img {
+    width: 55px;
+  }
+
+  .font1 p {
+    font-size: 28px;
+    margin-bottom: 6px;
+  }
+
+  .font1 small {
+    font-size: 18px;
+  }
+
+  .top {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .top .top_img {
+    width: 70%;
+    height: auto;
+  }
+
+  .top .top_img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .feature .inner {
+    padding: 0;
+  }
+
+  .font2 {
+    font-size: 22px;
+  }
+
+  .font2::after {
+    width: 30px;
+  }
+
+  .feature .inner p {
+    font-size: 14px;
+  }
+
+  .font3 {
+    font-size: 40px;
+  }
+
+  .app .app_img {
+    margin: 50px auto 0;
+  }
+
+  .how_to {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .faq .txt {
+    padding: 50px 30px;
+  }
+
+  .faq .text ul li,p {
+    line-height: 2;
+  }
+
+  .faq .txt ul p {
+    margin-bottom: 12px;
+  }
+
+  .faq .more {
+    width: unset;
+    padding: 20px 40px;
+    margin: 0 100px;
+  }
+
+  .news .txt {
+    padding: 50px 30px;
+  }
+
+  .news .txt li:nth-child(even) {
+    margin-bottom: 12px;
+  }
+
+  .contact_btn .btn {
+    width: unset;
+    padding: 20px 40px;
+    margin: 0 100px;
+  }
+
+  
+
+}
